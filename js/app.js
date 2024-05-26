@@ -1,11 +1,11 @@
-let listProductHTML = document.querySelector('.listProduct'); //defines the html class "listProduct" in javascript using the document.querySelector and naming it listProductHTML
-let listCartHTML = document.querySelector('.listCart'); //defines the html class "listCart" in javascript and naming it listCartHTML
-let iconCart = document.querySelector('.icon-cart'); //defines the class icon-cart in JS and names it iconCart
-let iconCartSpan = document.querySelector('.icon-cart span'); // defines the class icon-cart span in JS and names it iconCartSpan
-let body = document.querySelector('body'); //defines the body in JS and names it body
-let closeCart = document.querySelector('.close'); //defines the close cart in JS and labels it closeCart
-let products = []; //defines the products variable as an empty array
-let cart = []; //defines the cart variable as empty array
+let listProductHTML = document.querySelector('.listProduct'); 
+let listCartHTML = document.querySelector('.listCart'); 
+let iconCart = document.querySelector('.icon-cart'); 
+let iconCartSpan = document.querySelector('.icon-cart span'); 
+let body = document.querySelector('body'); 
+let closeCart = document.querySelector('.close'); 
+let products = [];
+let cart = []; 
 
 
 iconCart.addEventListener('click', () => { //arrow function that adds and eventListener of click to the iconCart class(cart image)
