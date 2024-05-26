@@ -70,6 +70,7 @@ header .icon-cart span {
   display: grid;
   grid-template-rows: 70px 1fr 70px;
   transition: 0.5s;
+  z-index: 1;
 }
 
 body.showCart .cartTab {
