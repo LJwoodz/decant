@@ -1,0 +1,30 @@
+.footer-container {
+  max-width: 95%;
+  background-color: rgb(234, 234, 234);
+  margin: auto;
+  border-top: 3px solid;
+  z-index: 2;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #3846c2;
+  margin: 0;
+  height: auto;
+  padding: 0;
+  z-index: 2;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer-column {
+  width: 25%;
+  padding: 0 15px;
+}

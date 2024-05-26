@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: roboto;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  font-size: 12.5pt;
+  transition: transform 0.5s;
+}
+
+svg {
+  width: 30px;
+  right: 0;
+}
+
+header {
+  position: sticky;
+  justify-content: space-around;
+  display: flex;
+  width: 100%;
+  padding: 20px 0;
+  background-color: #4554d9;
+  margin: 0;
+  top: 0;
+  z-index: 10;
+}
+.right-header {
+  display: inherit;
+  justify-content: end;
+  width: 80%;
+  column-gap: 50px;
+  align-items: center;
+}
+
+header .icon-cart {
+  position: relative;
+  cursor: pointer;
+}
+
+header .icon-cart span {
+  position: absolute;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 50%;
+  top: 50%;
+  right: -15px;
+}
+
+.cartTab {
+  width: 400px;
+  background-color: #353432;
+  color: white;
+  position: fixed;
+  inset: 0 -400px 0 auto;
+  display: grid;
+  grid-template-rows: 70px 1fr 70px;
+  transition: 0.5s;
+}
+
+body.showCart .cartTab {
+  inset: 0 0 0 auto;
+}
+
+body.showCart .container {
+  transform: translateX();
+}
+
+.cartTab h1 {
+  padding: 20px;
+  margin: 0;
+  font-weight: 300;
+}
+
+.cartTab .btn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.cartTab .btn button {
+  background-color: #e8bc0e;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.cartTab .btn .close {
+  background-color: white;
+}
+
+.cartTab .listCart .item img {
+  width: 100%;
+}
+
+.cartTab .listCart .item {
+  display: grid;
+  grid-template-columns: 70px 150px 50px 1fr;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.listCart .quantity span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #eee;
+  color: #555;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.listCart .quantity span:nth-child(2) {
+  background-color: transparent;
+  color: #eee;
+  cursor: auto;
+}
+
+.listCart .item:nth-child(even) {
+  background-color: #eee1;
+}
+
+.listCart {
+  overflow: auto;
+}
+
+.listCart::-webkit-scrollbar {
+  width: 0;
+}
+.search-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.hide {
+  display: none;
+}
+.title {
+  height: 40px;
+  background-color: transparent;
+  width: 160px;
+}

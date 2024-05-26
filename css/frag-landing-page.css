@@ -1,0 +1,29 @@
+.landing-page-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing-page-image {
+  height: 350px;
+  width: auto;
+}
+.decant-size-pick {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.size-button {
+  width: 100px;
+  margin-right: 15px;
+  margin-top: -50px;
+  border-radius: 50px;
+  background-color: transparent;
+  border: 2px rgb(186, 186, 186) solid;
+}
+.subscribe-button {
+  border: 2px rgb(255, 214, 124) solid;
+  width: 120px;
+  margin-top: -50px;
+  border-radius: 50px;
+  background-color: transparent;
+}
