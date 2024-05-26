@@ -109,5 +109,5 @@ a:hover {
 }
 .index-banner {
   border: 1px solid black;
-  z-index: 1;
+  z-index: 0;
 }
