@@ -105,7 +105,7 @@ a:hover {
   justify-content: center;
   height: 75%;
   margin-top: 20px;
-  z-index: 1;
+  z-index: 0;
 }
 .index-banner {
   border: 1px solid black;
