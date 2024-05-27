@@ -32,7 +32,7 @@ header {
   background-color: #4554d9;
   margin: 0;
   top: 0;
-  z-index: 0;
+  z-index: 1;
 }
 .right-header {
   display: inherit;
@@ -70,7 +70,7 @@ header .icon-cart span {
   display: grid;
   grid-template-rows: 70px 1fr 70px;
   transition: 0.5s;
-  z-index: 1;
+  z-index: 2;
 }
 
 body.showCart .cartTab {
