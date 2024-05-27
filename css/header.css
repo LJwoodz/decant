@@ -131,8 +131,8 @@ body.showCart .container {
   cursor: auto;
 }
 
-.listCart .item:nth-child(even) {
-  background-color: rgba(238, 238, 238, 0.327);
+.listCart .item:nth-child(odd) {
+  background-color: rgba(238, 238, 238, 0.089);
 }
 
 .listCart {
