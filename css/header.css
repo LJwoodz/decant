@@ -29,10 +29,10 @@ header {
   display: flex;
   width: 100%;
   padding: 20px 0;
-  background-color: red;
+  background-color: hsl(0, 0%, 85%);
   margin: 0;
   top: 0;
-  z-index: 1;
+  z-index: 2;
 }
 .right-header {
   display: inherit;
@@ -40,6 +40,7 @@ header {
   width: 80%;
   column-gap: 50px;
   align-items: center;
+  margin-right: 20px;
 }
 
 header .icon-cart {
@@ -70,7 +71,7 @@ header .icon-cart span {
   display: grid;
   grid-template-rows: 70px 1fr 70px;
   transition: 0.5s;
-  z-index: 2;
+  z-index: 4;
 }
 
 body.showCart .cartTab {
