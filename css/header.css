@@ -28,12 +28,23 @@ header {
   justify-content: space-around;
   display: flex;
   width: 100%;
-  padding: 20px 0;
+  height: 12%;
+  padding: 10px 0;
   background-color: hsl(0, 0%, 85%);
   margin: 0;
   top: 0;
   z-index: 2;
 }
+.leftHeader {
+  height: 100%;
+  background-color: transparent;
+  padding: 0;
+}
+
+#logo {
+  height: 100%;
+}
+
 .right-header {
   display: inherit;
   justify-content: end;
@@ -149,9 +160,4 @@ body.showCart .container {
 }
 .hide {
   display: none;
-}
-.title {
-  height: 40px;
-  background-color: transparent;
-  width: 160px;
 }
