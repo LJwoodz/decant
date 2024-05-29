@@ -1,18 +1,19 @@
 .footer-container {
-  max-width: 100%;
-  position: relative;
+  width: 100%;
+  position: fixed;
   background-color: rgb(255, 255, 255);
-  margin: auto;
   border-top: 3px solid;
   z-index: 1;
+  margin-bottom: 0;
+  bottom: 0;
 }
 
 .footer {
   box-sizing: border-box;
   background-color: hsl(0, 0%, 85%);
-  margin: 0;
   height: auto;
   padding: 0;
+  margin-bottom: 0;
 }
 
 .footer-row {
